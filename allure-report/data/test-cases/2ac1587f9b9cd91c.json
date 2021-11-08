@@ -1,0 +1,231 @@
+{
+  "uid" : "2ac1587f9b9cd91c",
+  "name" : "Then I shall verify the ProductName Matches the SKU displayed",
+  "fullName" : "Search Functionality: As a user, I can search by product SKU.Then I shall verify the ProductName Matches the SKU displayed",
+  "historyId" : "bfda12bcf78390523d6b2f35380982ab",
+  "time" : {
+    "start" : 1636354056855,
+    "stop" : 1636354062311,
+    "duration" : 5456
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/window/maximize",
+      "time" : {
+        "start" : 1636354056855,
+        "stop" : 1636354057217,
+        "duration" : 362
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/elements",
+        "time" : {
+          "start" : 1636354056858,
+          "stop" : 1636354057027,
+          "duration" : 169
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "a3f39b4fa6972315",
+          "name" : "Request",
+          "source" : "a3f39b4fa6972315.json",
+          "type" : "application/json",
+          "size" : 73
+        }, {
+          "uid" : "d9df77d881cf9075",
+          "name" : "Response",
+          "source" : "d9df77d881cf9075.json",
+          "type" : "application/json",
+          "size" : 184
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "GET /session/:sessionId/element/75324fc3-5897-43d0-b647-822d7badcb2f/text",
+        "time" : {
+          "start" : 1636354057032,
+          "stop" : 1636354057178,
+          "duration" : 146
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "87fb8099021f82ac",
+          "name" : "Response",
+          "source" : "87fb8099021f82ac.json",
+          "type" : "application/json",
+          "size" : 57
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "11b478a3796cb558",
+        "name" : "Response",
+        "source" : "11b478a3796cb558.json",
+        "type" : "application/json",
+        "size" : 9
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 4,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1636354057218,
+        "stop" : 1636354057234,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c77ce95c8ee9124c",
+        "name" : "Request",
+        "source" : "c77ce95c8ee9124c.json",
+        "type" : "application/json",
+        "size" : 73
+      }, {
+        "uid" : "e957c28c61f6914",
+        "name" : "Response",
+        "source" : "e957c28c61f6914.json",
+        "type" : "application/json",
+        "size" : 184
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/75324fc3-5897-43d0-b647-822d7badcb2f/text",
+      "time" : {
+        "start" : 1636354057237,
+        "stop" : 1636354057249,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2b1857c606489a81",
+        "name" : "Response",
+        "source" : "2b1857c606489a81.json",
+        "type" : "application/json",
+        "size" : 9
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1636354057252,
+        "stop" : 1636354057267,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ce2ec6b4ff31b740",
+        "name" : "Request",
+        "source" : "ce2ec6b4ff31b740.json",
+        "type" : "application/json",
+        "size" : 49
+      }, {
+        "uid" : "fd1046fca0862de2",
+        "name" : "Response",
+        "source" : "fd1046fca0862de2.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/e8fd3d9b-0e70-4307-a689-c1ba59428767/click",
+      "time" : {
+        "start" : 1636354057269,
+        "stop" : 1636354062309,
+        "duration" : 5040
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "8dc0273f4fb626a1",
+      "name" : "Console Logs",
+      "source" : "8dc0273f4fb626a1.html",
+      "type" : "text/html",
+      "size" : 235
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "attachmentsCount" : 10,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Search Functionality: As a user, I can search by product SKU"
+  }, {
+    "name" : "testClass",
+    "value" : "Search Functionality: As a user, I can search by product SKU"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then I shall verify the ProductName Matches the SKU displayed"
+  }, {
+    "name" : "package",
+    "value" : "Search Functionality: As a user, I can search by product SKU"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-95.0.4638.69"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2ac1587f9b9cd91c.json",
+  "parameterValues" : [ "chrome-95.0.4638.69" ]
+}

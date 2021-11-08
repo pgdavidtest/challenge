@@ -1,0 +1,279 @@
+{
+  "uid" : "b68a08e950adb27",
+  "name" : "Then I shall verify the ProductName Matches the SKU displayed",
+  "fullName" : "Search Functionality: As a user, I can search by product SKU.Then I shall verify the ProductName Matches the SKU displayed",
+  "historyId" : "bfda12bcf78390523d6b2f35380982ab",
+  "time" : {
+    "start" : 1636369966804,
+    "stop" : 1636369970664,
+    "duration" : 3860
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/window/maximize",
+      "time" : {
+        "start" : 1636369966804,
+        "stop" : 1636369967399,
+        "duration" : 595
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/elements",
+        "time" : {
+          "start" : 1636369966812,
+          "stop" : 1636369967041,
+          "duration" : 229
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "3a15882b97ce7d1c",
+          "name" : "Request",
+          "source" : "3a15882b97ce7d1c.json",
+          "type" : "application/json",
+          "size" : 73
+        }, {
+          "uid" : "607a3f2e92f4307e",
+          "name" : "Response",
+          "source" : "607a3f2e92f4307e.json",
+          "type" : "application/json",
+          "size" : 57
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "d3d44e4b7c4a77be",
+        "name" : "Response",
+        "source" : "d3d44e4b7c4a77be.json",
+        "type" : "application/json",
+        "size" : 184
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/b8484c3a-785d-4b53-8959-b9188f448b0d/text",
+      "time" : {
+        "start" : 1636369967414,
+        "stop" : 1636369967511,
+        "duration" : 97
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "dab2fd2c0c77a494",
+        "name" : "Response",
+        "source" : "dab2fd2c0c77a494.json",
+        "type" : "application/json",
+        "size" : 9
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1636369967513,
+        "stop" : 1636369967544,
+        "duration" : 31
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b3d9b78984066931",
+        "name" : "Request",
+        "source" : "b3d9b78984066931.json",
+        "type" : "application/json",
+        "size" : 73
+      }, {
+        "uid" : "86abdcc3f7efa358",
+        "name" : "Response",
+        "source" : "86abdcc3f7efa358.json",
+        "type" : "application/json",
+        "size" : 184
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/b8484c3a-785d-4b53-8959-b9188f448b0d/text",
+      "time" : {
+        "start" : 1636369967551,
+        "stop" : 1636369967643,
+        "duration" : 92
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e8c4ed2d8d686ac1",
+        "name" : "Response",
+        "source" : "e8c4ed2d8d686ac1.json",
+        "type" : "application/json",
+        "size" : 9
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1636369967645,
+        "stop" : 0,
+        "duration" : -1636369967645
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/element",
+        "time" : {
+          "start" : 1636369967647,
+          "stop" : 1636369967679,
+          "duration" : 32
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "3e20238e96068f8b",
+          "name" : "Request",
+          "source" : "3e20238e96068f8b.json",
+          "type" : "application/json",
+          "size" : 53
+        }, {
+          "uid" : "241646abcb12c90f",
+          "name" : "Response",
+          "source" : "241646abcb12c90f.json",
+          "type" : "application/json",
+          "size" : 83
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "POST /session/:sessionId/element/41a1e032-eca3-46a8-a751-d8e133f3a02d/click",
+        "time" : {
+          "start" : 1636369967684,
+          "stop" : 1636369967720,
+          "duration" : 36
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "f930d5da0066e7ea",
+          "name" : "Response",
+          "source" : "f930d5da0066e7ea.json",
+          "type" : "application/json",
+          "size" : 1922
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "POST /session/:sessionId/elements",
+        "time" : {
+          "start" : 1636369967726,
+          "stop" : 1636369970663,
+          "duration" : 2937
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "6015c75ac5b32fe7",
+          "name" : "Request",
+          "source" : "6015c75ac5b32fe7.json",
+          "type" : "application/json",
+          "size" : 53
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "72e4d5a0ea08599a",
+        "name" : "Request",
+        "source" : "72e4d5a0ea08599a.json",
+        "type" : "application/json",
+        "size" : 49
+      }, {
+        "uid" : "6c94a95051f76c5a",
+        "name" : "Console Logs",
+        "source" : "6c94a95051f76c5a.html",
+        "type" : "text/html",
+        "size" : 235
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 6,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 9,
+    "attachmentsCount" : 13,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Search Functionality: As a user, I can search by product SKU"
+  }, {
+    "name" : "testClass",
+    "value" : "Search Functionality: As a user, I can search by product SKU"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then I shall verify the ProductName Matches the SKU displayed"
+  }, {
+    "name" : "package",
+    "value" : "Search Functionality: As a user, I can search by product SKU"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-95.0.4638.69"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b68a08e950adb27.json",
+  "parameterValues" : [ "chrome-95.0.4638.69" ]
+}

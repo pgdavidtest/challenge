@@ -1,0 +1,191 @@
+{
+  "actions": [
+    {
+      "type": "pointer",
+      "id": "pointer1",
+      "parameters": {
+        "pointerType": "mouse"
+      },
+      "actions": [
+        {
+          "type": "pointerMove",
+          "origin": {
+            "sessionId": "8c5958efc571fc895f4d6bd03535824a",
+            "elementId": "f762b6be-6e56-41fd-ad9d-bfd149204f35",
+            "element-6066-11e4-a52e-4f735466cecf": "f762b6be-6e56-41fd-ad9d-bfd149204f35",
+            "selector": "#gh-search-input",
+            "parent": {
+              "sessionId": "8c5958efc571fc895f4d6bd03535824a",
+              "capabilities": {
+                "acceptInsecureCerts": true,
+                "browserName": "chrome",
+                "browserVersion": "95.0.4638.69",
+                "chrome": {
+                  "chromedriverVersion": "95.0.4638.54 (d31a821ec901f68d0d34ccdbaea45b4c86ce543e-refs/branch-heads/4638@{#871})",
+                  "userDataDir": "/var/folders/l3/6z6lsw6n07j7bf938bc6471c0000gn/T/.com.google.Chrome.d3F9Yt"
+                },
+                "goog:chromeOptions": {
+                  "debuggerAddress": "localhost:56814"
+                },
+                "networkConnectionEnabled": false,
+                "pageLoadStrategy": "normal",
+                "platformName": "mac os x",
+                "proxy": {},
+                "se:cdp": "ws://10.0.0.212:4444/session/8c5958efc571fc895f4d6bd03535824a/se/cdp",
+                "se:cdpVersion": "95.0.4638.69",
+                "setWindowRect": true,
+                "strictFileInteractability": false,
+                "timeouts": {
+                  "implicit": 0,
+                  "pageLoad": 300000,
+                  "script": 30000
+                },
+                "unhandledPromptBehavior": "dismiss and notify",
+                "webauthn:extension:credBlob": true,
+                "webauthn:extension:largeBlob": true,
+                "webauthn:virtualAuthenticators": true
+              },
+              "config": {
+                "specs": [
+                  "./features/*.feature"
+                ],
+                "suites": {},
+                "exclude": [],
+                "logLevel": "silent",
+                "logLevels": {},
+                "excludeDriverLogs": [],
+                "bail": 0,
+                "waitforInterval": 500,
+                "waitforTimeout": 10000,
+                "framework": "cucumber",
+                "reporters": [
+                  [
+                    "allure",
+                    {
+                      "outputDir": "allure-results",
+                      "addConsoleLogs": true
+                    }
+                  ],
+                  [
+                    "junit",
+                    {
+                      "outputDir": "./report"
+                    }
+                  ]
+                ],
+                "services": [
+                  "selenium-standalone"
+                ],
+                "maxInstances": 5,
+                "maxInstancesPerCapability": 100,
+                "filesToWatch": [],
+                "connectionRetryTimeout": 120000,
+                "connectionRetryCount": 3,
+                "execArgv": [],
+                "runnerEnv": {},
+                "runner": "local",
+                "specFileRetries": 0,
+                "specFileRetriesDelay": 0,
+                "specFileRetriesDeferred": false,
+                "reporterSyncInterval": 100,
+                "reporterSyncTimeout": 5000,
+                "cucumberFeaturesWithLineNumbers": [],
+                "autoCompileOpts": {
+                  "autoCompile": true,
+                  "tsNodeOpts": {
+                    "transpileOnly": true
+                  },
+                  "babelOpts": {}
+                },
+                "mochaOpts": {
+                  "timeout": 10000
+                },
+                "jasmineOpts": {
+                  "defaultTimeoutInterval": 10000
+                },
+                "cucumberOpts": {
+                  "timeout": 240000,
+                  "require": [
+                    "./features/step-definitions/*.steps.js"
+                  ],
+                  "backtrace": false,
+                  "requireModule": [],
+                  "dryRun": false,
+                  "failFast": false,
+                  "format": [
+                    "pretty"
+                  ],
+                  "snippets": true,
+                  "source": true,
+                  "profile": [],
+                  "strict": false,
+                  "tagExpression": "",
+                  "ignoreUndefinedDefinitions": true
+                },
+                "onPrepare": [],
+                "onWorkerStart": [],
+                "before": [
+                  null
+                ],
+                "beforeSession": [],
+                "beforeSuite": [],
+                "beforeHook": [],
+                "beforeTest": [],
+                "beforeCommand": [],
+                "afterCommand": [],
+                "afterTest": [],
+                "afterHook": [],
+                "afterSuite": [],
+                "afterSession": [],
+                "after": [],
+                "onComplete": [],
+                "onReload": [],
+                "beforeFeature": [
+                  null
+                ],
+                "beforeScenario": [],
+                "beforeStep": [
+                  null
+                ],
+                "afterStep": [
+                  null
+                ],
+                "afterScenario": [],
+                "afterFeature": [],
+                "baseUrl": "http://localhost",
+                "_": [
+                  "wdio.conf.js"
+                ],
+                "$0": "/Users/olugbengapeluola/Desktop/NewProject/node_modules/.bin/wdio",
+                "ignoredWorkerServices": []
+              }
+            },
+            "isReactElement": false
+          },
+          "x": 0,
+          "y": 0
+        },
+        {
+          "type": "pointerDown",
+          "button": 0
+        },
+        {
+          "type": "pointerUp",
+          "button": 0
+        },
+        {
+          "type": "pause",
+          "duration": 10
+        },
+        {
+          "type": "pointerDown",
+          "button": 0
+        },
+        {
+          "type": "pointerUp",
+          "button": 0
+        }
+      ]
+    }
+  ]
+}

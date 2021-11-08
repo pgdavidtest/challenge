@@ -1,0 +1,134 @@
+{
+  "uid" : "2d9ce9aaeb9d5aaf",
+  "name" : "Then I shall verify the ProductName Matches the SKU displayed",
+  "fullName" : "Search Functionality: As a user, I can search by product SKU.Then I shall verify the ProductName Matches the SKU displayed",
+  "historyId" : "bfda12bcf78390523d6b2f35380982ab",
+  "time" : {
+    "start" : 1636288990929,
+    "stop" : 1636288992564,
+    "duration" : 1635
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TypeError: Cannot read property '2' of undefined",
+  "statusTrace" : "TypeError: Cannot read property '2' of undefined\n                    at World.<anonymous> (/Users/olugbengapeluola/Desktop/NewProject/features/step-definitions/search.steps.js:25:36)\n                    at World.executeAsync (/Users/olugbengapeluola/Desktop/NewProject/node_modules/@wdio/utils/build/shim.js:325:27)\n                    at World.testFrameworkFnWrapper (/Users/olugbengapeluola/Desktop/NewProject/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:45:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TypeError: Cannot read property '2' of undefined",
+    "statusTrace" : "TypeError: Cannot read property '2' of undefined\n                    at World.<anonymous> (/Users/olugbengapeluola/Desktop/NewProject/features/step-definitions/search.steps.js:25:36)\n                    at World.executeAsync (/Users/olugbengapeluola/Desktop/NewProject/node_modules/@wdio/utils/build/shim.js:325:27)\n                    at World.testFrameworkFnWrapper (/Users/olugbengapeluola/Desktop/NewProject/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:45:32)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/window/maximize",
+      "time" : {
+        "start" : 1636288990930,
+        "stop" : 1636288992564,
+        "duration" : 1634
+      },
+      "status" : "broken",
+      "statusMessage" : "TypeError: Cannot read property '2' of undefined\n                    at World.<anonymous> (/Users/olugbengapeluola/Desktop/NewProject/features/step-definitions/search.steps.js:25:36)\n                    at World.executeAsync (/Users/olugbengapeluola/Desktop/NewProject/node_modules/@wdio/utils/build/shim.js:325:27)\n                    at World.testFrameworkFnWrapper (/Users/olugbengapeluola/Desktop/NewProject/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:45:32)",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/elements",
+        "time" : {
+          "start" : 1636288990933,
+          "stop" : 1636288992562,
+          "duration" : 1629
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "GET /session/:sessionId/screenshot",
+          "time" : {
+            "start" : 1636288990945,
+            "stop" : 1636288991961,
+            "duration" : 1016
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "77beca4e94ede46e",
+            "name" : "Response",
+            "source" : "77beca4e94ede46e.json",
+            "type" : "application/json",
+            "size" : 57
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ {
+          "uid" : "3a4ba01f18b8d536",
+          "name" : "Request",
+          "source" : "3a4ba01f18b8d536.json",
+          "type" : "application/json",
+          "size" : 68
+        }, {
+          "uid" : "e058d3f32c42a1f8",
+          "name" : "Screenshot",
+          "source" : "e058d3f32c42a1f8.png",
+          "type" : "image/png",
+          "size" : 947366
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 3,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Search Functionality: As a user, I can search by product SKU"
+  }, {
+    "name" : "testClass",
+    "value" : "Search Functionality: As a user, I can search by product SKU"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then I shall verify the ProductName Matches the SKU displayed"
+  }, {
+    "name" : "package",
+    "value" : "Search Functionality: As a user, I can search by product SKU"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-95.0.4638.69"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2d9ce9aaeb9d5aaf.json",
+  "parameterValues" : [ "chrome-95.0.4638.69" ]
+}

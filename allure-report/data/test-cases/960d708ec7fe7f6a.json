@@ -1,0 +1,126 @@
+{
+  "uid" : "960d708ec7fe7f6a",
+  "name" : "",
+  "fullName" : "Search Functionality: As a user, I can search by product SKU.",
+  "historyId" : "a54265c9c1fa1a7e8308ee5a65007c02",
+  "time" : {
+    "start" : 1636318018026,
+    "stop" : 1636318018109,
+    "duration" : 83
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1636318018048,
+        "stop" : 1636318018075,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1dec3e451d7aa304",
+        "name" : "Request",
+        "source" : "1dec3e451d7aa304.json",
+        "type" : "application/json",
+        "size" : 86
+      }, {
+        "uid" : "663164217ee2acb5",
+        "name" : "Response",
+        "source" : "663164217ee2acb5.json",
+        "type" : "application/json",
+        "size" : 1955
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1636318018081,
+        "stop" : 0,
+        "duration" : -1636318018081
+      },
+      "status" : "unknown",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5467d6aa6344c9e3",
+        "name" : "Request",
+        "source" : "5467d6aa6344c9e3.json",
+        "type" : "application/json",
+        "size" : 86
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "f82a652b9d468561",
+      "name" : "Response",
+      "source" : "f82a652b9d468561.json",
+      "type" : "application/json",
+      "size" : 1955
+    }, {
+      "uid" : "13807c995c5fd0",
+      "name" : "Response",
+      "source" : "13807c995c5fd0.json",
+      "type" : "application/json",
+      "size" : 1955
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Search Functionality: As a user, I can search by product SKU"
+  }, {
+    "name" : "testClass",
+    "value" : "Search Functionality: As a user, I can search by product SKU"
+  }, {
+    "name" : "testMethod",
+    "value" : ""
+  }, {
+    "name" : "package",
+    "value" : "Search Functionality: As a user, I can search by product SKU"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-95.0.4638.69"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "960d708ec7fe7f6a.json",
+  "parameterValues" : [ "chrome-95.0.4638.69" ]
+}

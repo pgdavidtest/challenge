@@ -1,0 +1,134 @@
+{
+  "uid" : "1ba6b932efa7c947",
+  "name" : "Then I shall verify the ProductName Matches the SKU displayed",
+  "fullName" : "Search Functionality: As a user, I can search by product SKU.Then I shall verify the ProductName Matches the SKU displayed",
+  "historyId" : "bfda12bcf78390523d6b2f35380982ab",
+  "time" : {
+    "start" : 1636317970643,
+    "stop" : 1636317971862,
+    "duration" : 1219
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "ReferenceError: u is not defined",
+  "statusTrace" : "ReferenceError: u is not defined\n                    at ProductPage.getSKU (/Users/olugbengapeluola/Desktop/NewProject/features/pageobjects/product.page.js:69:5)\n                    at World.<anonymous> (/Users/olugbengapeluola/Desktop/NewProject/features/step-definitions/search.steps.js:24:59)\n                    at World.executeAsync (/Users/olugbengapeluola/Desktop/NewProject/node_modules/@wdio/utils/build/shim.js:325:27)\n                    at World.testFrameworkFnWrapper (/Users/olugbengapeluola/Desktop/NewProject/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:45:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "ReferenceError: u is not defined",
+    "statusTrace" : "ReferenceError: u is not defined\n                    at ProductPage.getSKU (/Users/olugbengapeluola/Desktop/NewProject/features/pageobjects/product.page.js:69:5)\n                    at World.<anonymous> (/Users/olugbengapeluola/Desktop/NewProject/features/step-definitions/search.steps.js:24:59)\n                    at World.executeAsync (/Users/olugbengapeluola/Desktop/NewProject/node_modules/@wdio/utils/build/shim.js:325:27)\n                    at World.testFrameworkFnWrapper (/Users/olugbengapeluola/Desktop/NewProject/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:45:32)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/window/maximize",
+      "time" : {
+        "start" : 1636317970643,
+        "stop" : 1636317971862,
+        "duration" : 1219
+      },
+      "status" : "broken",
+      "statusMessage" : "ReferenceError: u is not defined\n                    at ProductPage.getSKU (/Users/olugbengapeluola/Desktop/NewProject/features/pageobjects/product.page.js:69:5)\n                    at World.<anonymous> (/Users/olugbengapeluola/Desktop/NewProject/features/step-definitions/search.steps.js:24:59)\n                    at World.executeAsync (/Users/olugbengapeluola/Desktop/NewProject/node_modules/@wdio/utils/build/shim.js:325:27)\n                    at World.testFrameworkFnWrapper (/Users/olugbengapeluola/Desktop/NewProject/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:45:32)",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/elements",
+        "time" : {
+          "start" : 1636317970645,
+          "stop" : 1636317971860,
+          "duration" : 1215
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "GET /session/:sessionId/screenshot",
+          "time" : {
+            "start" : 1636317970648,
+            "stop" : 1636317971036,
+            "duration" : 388
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "9317e8c19083c992",
+            "name" : "Response",
+            "source" : "9317e8c19083c992.json",
+            "type" : "application/json",
+            "size" : 57
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ {
+          "uid" : "3ba24ecf072719c6",
+          "name" : "Request",
+          "source" : "3ba24ecf072719c6.json",
+          "type" : "application/json",
+          "size" : 73
+        }, {
+          "uid" : "df59dd57eb764e07",
+          "name" : "Screenshot",
+          "source" : "df59dd57eb764e07.png",
+          "type" : "image/png",
+          "size" : 860473
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 3,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Search Functionality: As a user, I can search by product SKU"
+  }, {
+    "name" : "testClass",
+    "value" : "Search Functionality: As a user, I can search by product SKU"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then I shall verify the ProductName Matches the SKU displayed"
+  }, {
+    "name" : "package",
+    "value" : "Search Functionality: As a user, I can search by product SKU"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-95.0.4638.69"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1ba6b932efa7c947.json",
+  "parameterValues" : [ "chrome-95.0.4638.69" ]
+}

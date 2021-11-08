@@ -1,0 +1,172 @@
+{
+  "uid" : "7ae4fb8b8c26d65b",
+  "name" : "Then I shall verify the ProductName Matches the SKU displayed",
+  "fullName" : "Search Functionality: As a user, I can search by product SKU.Then I shall verify the ProductName Matches the SKU displayed",
+  "historyId" : "bfda12bcf78390523d6b2f35380982ab",
+  "time" : {
+    "start" : 1636314565861,
+    "stop" : 1636314566790,
+    "duration" : 929
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TypeError: Assignment to constant variable.",
+  "statusTrace" : "TypeError: Assignment to constant variable.\n                    at ProductPage.getSKU (/Users/olugbengapeluola/Desktop/NewProject/features/pageobjects/product.page.js:61:47)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n                    at World.<anonymous> (/Users/olugbengapeluola/Desktop/NewProject/features/step-definitions/search.steps.js:23:19)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TypeError: Assignment to constant variable.",
+    "statusTrace" : "TypeError: Assignment to constant variable.\n                    at ProductPage.getSKU (/Users/olugbengapeluola/Desktop/NewProject/features/pageobjects/product.page.js:61:47)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n                    at World.<anonymous> (/Users/olugbengapeluola/Desktop/NewProject/features/step-definitions/search.steps.js:23:19)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/window/maximize",
+      "time" : {
+        "start" : 1636314565861,
+        "stop" : 1636314566789,
+        "duration" : 928
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/elements",
+        "time" : {
+          "start" : 1636314565863,
+          "stop" : 1636314565955,
+          "duration" : 92
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "138bed96d59b8d17",
+          "name" : "Request",
+          "source" : "138bed96d59b8d17.json",
+          "type" : "application/json",
+          "size" : 73
+        }, {
+          "uid" : "5e3133fa87b47ab2",
+          "name" : "Response",
+          "source" : "5e3133fa87b47ab2.json",
+          "type" : "application/json",
+          "size" : 184
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "POST /session/:sessionId/elements",
+        "time" : {
+          "start" : 1636314565960,
+          "stop" : 1636314566147,
+          "duration" : 187
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "GET /session/:sessionId/screenshot",
+          "time" : {
+            "start" : 1636314565963,
+            "stop" : 1636314566129,
+            "duration" : 166
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "dd1af1b11cd5252a",
+            "name" : "Response",
+            "source" : "dd1af1b11cd5252a.json",
+            "type" : "application/json",
+            "size" : 57
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ {
+          "uid" : "9f454ac20efe902e",
+          "name" : "Request",
+          "source" : "9f454ac20efe902e.json",
+          "type" : "application/json",
+          "size" : 73
+        }, {
+          "uid" : "32987570848051b7",
+          "name" : "Response",
+          "source" : "32987570848051b7.json",
+          "type" : "application/json",
+          "size" : 184
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 3,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "57d5dd433be6baef",
+        "name" : "Screenshot",
+        "source" : "57d5dd433be6baef.png",
+        "type" : "image/png",
+        "size" : 923913
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 6,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "ee0d2fe266950b14",
+      "name" : "Console Logs",
+      "source" : "ee0d2fe266950b14.html",
+      "type" : "text/html",
+      "size" : 229
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 7,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Search Functionality: As a user, I can search by product SKU"
+  }, {
+    "name" : "testClass",
+    "value" : "Search Functionality: As a user, I can search by product SKU"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then I shall verify the ProductName Matches the SKU displayed"
+  }, {
+    "name" : "package",
+    "value" : "Search Functionality: As a user, I can search by product SKU"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-95.0.4638.69"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7ae4fb8b8c26d65b.json",
+  "parameterValues" : [ "chrome-95.0.4638.69" ]
+}

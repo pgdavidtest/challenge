@@ -1,0 +1,199 @@
+{
+  "uid" : "8dc5b3ee1680af63",
+  "name" : "Then I shall verify the ProductName Matches the SKU displayed",
+  "fullName" : "Search Functionality: As a user, I can search by product SKU.Then I shall verify the ProductName Matches the SKU displayed",
+  "historyId" : "bfda12bcf78390523d6b2f35380982ab",
+  "time" : {
+    "start" : 1636314766495,
+    "stop" : 1636314768638,
+    "duration" : 2143
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TypeError: Assignment to constant variable.",
+  "statusTrace" : "TypeError: Assignment to constant variable.\n                    at ProductPage.getSKU (/Users/olugbengapeluola/Desktop/NewProject/features/pageobjects/product.page.js:61:47)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n                    at World.<anonymous> (/Users/olugbengapeluola/Desktop/NewProject/features/step-definitions/search.steps.js:23:19)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TypeError: Assignment to constant variable.",
+    "statusTrace" : "TypeError: Assignment to constant variable.\n                    at ProductPage.getSKU (/Users/olugbengapeluola/Desktop/NewProject/features/pageobjects/product.page.js:61:47)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n                    at World.<anonymous> (/Users/olugbengapeluola/Desktop/NewProject/features/step-definitions/search.steps.js:23:19)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/window/maximize",
+      "time" : {
+        "start" : 1636314766497,
+        "stop" : 1636314766918,
+        "duration" : 421
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/elements",
+        "time" : {
+          "start" : 1636314766502,
+          "stop" : 1636314766736,
+          "duration" : 234
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "4742f6b8be0a5e82",
+          "name" : "Request",
+          "source" : "4742f6b8be0a5e82.json",
+          "type" : "application/json",
+          "size" : 73
+        }, {
+          "uid" : "c2ff7a2ad2572945",
+          "name" : "Response",
+          "source" : "c2ff7a2ad2572945.json",
+          "type" : "application/json",
+          "size" : 184
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "POST /session/:sessionId/elements",
+        "time" : {
+          "start" : 1636314766739,
+          "stop" : 1636314766908,
+          "duration" : 169
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "57ce48d17a7db869",
+          "name" : "Request",
+          "source" : "57ce48d17a7db869.json",
+          "type" : "application/json",
+          "size" : 73
+        }, {
+          "uid" : "be6cc942b8e12ab7",
+          "name" : "Response",
+          "source" : "be6cc942b8e12ab7.json",
+          "type" : "application/json",
+          "size" : 57
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "e522cf72fd386af",
+        "name" : "Response",
+        "source" : "e522cf72fd386af.json",
+        "type" : "application/json",
+        "size" : 184
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 5,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1636314766922,
+        "stop" : 1636314766936,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "854d9819b675ac97",
+        "name" : "Request",
+        "source" : "854d9819b675ac97.json",
+        "type" : "application/json",
+        "size" : 73
+      }, {
+        "uid" : "48bdff73ce7d8749",
+        "name" : "Response",
+        "source" : "48bdff73ce7d8749.json",
+        "type" : "application/json",
+        "size" : 184
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1636314766943,
+        "stop" : 1636314768636,
+        "duration" : 1693
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "dd3f182610dac19b",
+        "name" : "Screenshot",
+        "source" : "dd3f182610dac19b.png",
+        "type" : "image/png",
+        "size" : 928493
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "cb228902384a1e30",
+      "name" : "Console Logs",
+      "source" : "cb228902384a1e30.html",
+      "type" : "text/html",
+      "size" : 221
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 9,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Search Functionality: As a user, I can search by product SKU"
+  }, {
+    "name" : "testClass",
+    "value" : "Search Functionality: As a user, I can search by product SKU"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then I shall verify the ProductName Matches the SKU displayed"
+  }, {
+    "name" : "package",
+    "value" : "Search Functionality: As a user, I can search by product SKU"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-95.0.4638.69"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8dc5b3ee1680af63.json",
+  "parameterValues" : [ "chrome-95.0.4638.69" ]
+}

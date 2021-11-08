@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Search Functionality" timestamp="2021-11-08T09:30:51" time="274.438" tests="5" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="featureName" value="Search Functionality"/>
+      <property name="capabilities" value="chrome.95_0_4638_69.macosx"/>
+      <property name="featureFile" value="./features/search.feature"/>
+    </properties>
+    <testcase classname="CucumberJUnitReport-chrome.95_0_4638_69.macosx.Search Functionality" name="As a user I can search by product SKU" time="47.697">
+      <system-out><![CDATA[
+✅ Given I am on the home page✅ When I search by product sku✅ Then I shall verify the ProductName Matches the SKU displayed
+]]></system-out>
+    </testcase>
+    <testcase classname="CucumberJUnitReport-chrome.95_0_4638_69.macosx.Search Functionality" name="As a user I can search for stores near me" time="12.911">
+      <system-out><![CDATA[
+✅ Given I am on the home page✅ When I search for stores and by zipcode✅ Then I shall see Stores near 19152
+]]></system-out>
+    </testcase>
+    <testcase classname="CucumberJUnitReport-chrome.95_0_4638_69.macosx.Search Functionality" name="As a user I can search By Brands" time="25.016">
+      <system-out><![CDATA[
+✅ Given I am on the home page✅ When I search by brand name✅ Then I can select category, sub category, then slect a name and verify the url
+]]></system-out>
+    </testcase>
+    <testcase classname="CucumberJUnitReport-chrome.95_0_4638_69.macosx.Search Functionality" name="As a user I can search by Department" time="47.112">
+      <system-out><![CDATA[
+✅ Given I am on the home page✅ When I search by store department✅ Then I shall verify the product displayed
+]]></system-out>
+    </testcase>
+    <testcase classname="CucumberJUnitReport-chrome.95_0_4638_69.macosx.Search Functionality" name="As a user I can search by product" time="141.377">
+      <system-out><![CDATA[
+✅ Given I am on the home page✅ When I search for products, apply filter and validate results
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>
