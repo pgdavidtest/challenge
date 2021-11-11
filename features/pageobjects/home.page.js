@@ -31,13 +31,14 @@ class HomePage {
     }
   }
 
-  async closePopUp() {
+  async closePopUp() {try {
     this.btnCloseLoginModal.waitForExist(15000);
     if (this.btnCloseLoginModal.isExisting) {
       await this.btnCloseLoginModal.click();
     } else {
       console.log("Pop Up does not exist");
     }
+  }catch(error){console.log('error')}
   }
 }
 export default new HomePage();

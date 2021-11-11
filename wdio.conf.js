@@ -72,7 +72,7 @@ exports.config = {
     // Define all options that are relevant for the WebdriverIO instance here
     //
     // Level of logging verbosity: trace | debug | info | warn | error | silent
-    logLevel: 'silent',
+    logLevel: 'error',
     //
     // Set specific log levels per logger
     // loggers:
@@ -178,7 +178,7 @@ exports.config = {
         // <boolean> fail if there are any undefined or pending steps
         strict: false,
         // <string> (expression) only execute the features or scenarios with tags matching the expression
-        tagExpression: '',
+        tagExpression: '@TestCase1',
         // <number> timeout for step definitions
         timeout: 240000,
         // <boolean> Enable this config to treat undefined definitions as warnings.
@@ -255,8 +255,8 @@ exports.config = {
         browser.waitUntil(() => browser.execute(() => document.readyState === 'complete')),
          {
              timeout: 120 * 1000,  //60 seconds
-             timeoutMsg: 'Page did not finish loading within 60 minutes'
-         }
+            timeoutMsg: 'Page did not finish loading within 60 minutes'
+        }
 
         homePage.closePopUp();
     },
@@ -289,8 +289,8 @@ exports.config = {
     afterStep: async function (test, context, {error}) {
         if (error) {
             await browser.takeScreenshot();
-          }
-          result.duration
+        }
+        
     },
     /**
      *
