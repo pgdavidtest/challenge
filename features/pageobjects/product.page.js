@@ -55,7 +55,8 @@ class ProductPage {
 
   async getSKU() {
     let SKU = await this.classSKU[1].getText();
-    return SKU;
+    console.log(await (SKU))
+    return SKU
   }
 }
 export default new ProductPage();

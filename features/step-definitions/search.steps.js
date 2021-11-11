@@ -22,6 +22,7 @@ Then(
     for (const element of tableRow) {
       allureReporter.addSeverity("trivial");
       console.log("The product SKU is", await ProductPage.getSKU());
+      console.log(ProductPage.getSKU);
       expect(await element.SKU).toEqual(await ProductPage.getSKU());
       expect(browser.getTitle).toHaveTextContaining(await element.ProductName);
       await HomePage.siteLogo.click();
