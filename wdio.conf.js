@@ -178,7 +178,7 @@ exports.config = {
         // <boolean> fail if there are any undefined or pending steps
         strict: false,
         // <string> (expression) only execute the features or scenarios with tags matching the expression
-        tagExpression: '',
+        tagExpression: '@TestCase1',
         // <number> timeout for step definitions
         timeout: 240000,
         // <boolean> Enable this config to treat undefined definitions as warnings.
@@ -255,8 +255,8 @@ exports.config = {
         browser.waitUntil(() => browser.execute(() => document.readyState === 'complete')),
          {
              timeout: 120 * 1000,  //60 seconds
-             timeoutMsg: 'Page did not finish loading within 60 minutes'
-         }
+            timeoutMsg: 'Page did not finish loading within 60 minutes'
+        }
 
         homePage.closePopUp();
     },
